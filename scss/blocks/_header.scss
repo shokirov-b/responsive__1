@@ -1,0 +1,44 @@
+.header{
+
+    &__nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 44px;
+    }
+    &__menu{
+        display: flex;
+        align-items: center;
+        list-style-type: none;
+    }
+    &__item{
+        margin-right: 33px;
+    }
+    &__item:last-child{
+        margin-right: 0;
+    }
+    &__link{
+        text-decoration: none;
+        font-style: normal;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: bold;
+        color: #83888F;
+    }
+    &__link:hover{
+        color: #333D4B;
+    }
+    &__bar{
+        display: none;
+        margin-left: auto;
+    }
+}
+.checkbox{
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+  }
